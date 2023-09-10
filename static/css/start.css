@@ -1,0 +1,42 @@
+#title1 {
+    margin-top: 200px;
+    text-align: center;
+    font-family: Segoe Print;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+#title2{
+    margin-top: 0;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#start_bt {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border: 0px;
+    border-radius: 12px;
+    background: rgba(128, 128, 128, 0.247);
+}
+
+#start_bt:hover {
+    background: rgba(128, 128, 128, 0.405);
+}
+
+#start_form{
+    text-align: center;
+}
+
+#start_window{
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
