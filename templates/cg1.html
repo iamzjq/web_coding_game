@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WEB CODING GAME</title>
+    <link rel="stylesheet" href="../static/css/cg1.css">
+    <script src="../static/js/all_cg_index.js"></script>
+</head>
+<body onload="{{check_is_played('LEVEL-1')}}">
+    <div id="cg1_window">
+        <h1 id="cg1_title">LEVEL-1</h1>
+        <p id="cg1_q1">提示：点击进入<a id="cg1_q2" onclick="jump_to('2')">下一关</a></p>
+        <input type="button" value="下一关" id="next_bt" onclick="change_cg1_text()">
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WEB CODING GAME</title>
+    <link rel="stylesheet" href="../static/css/cg9.css">
+    <script src="../static/js/all_cg_index.js"></script>
+</head>
+<body onload="{{check_is_played('LEVEL-9')}}">
+    <div id="cg1_window">
+        <h1 id="cg1_title">LEVEL-9</h1>
+        <p id="cg1_q1">小红想展示一下她的本领，于是写了一款密码系统，但她没有真用到加密，<br>而是写了一个软件，将密码自动发送到她的邮箱</p>
+        <div id="inputing_div">
+            <input type="button" value="发送e-mail" id="send_bt" onclick="send_email('webcodinggame@yeah.net')">
+            <input type="text" placeholder="请输入密码" id="input_answer">
+            <input type="button" value="提交" id="next_bt" onclick="check_cg9_answer()">
+        </div>
+    </div> 
+</body>
+</html>
