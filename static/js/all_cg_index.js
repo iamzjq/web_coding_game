@@ -44,7 +44,7 @@ function check_cg11_answer(){
 }
 
 function jump_to(index){
-    window.location.href = ('./templates/cg' + index);
+    window.location.href = ('../templates/cg' + index);
 }
 
 function check_cgfalse_answer(){
